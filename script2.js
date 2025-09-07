@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     mainImg.classList.add("hidden");
   }
 let index = 0 ;
-const total = 18 ;
+const total = 19 ;
 
   //Img. and roastChange function
   async function roastChange() {
@@ -72,14 +72,10 @@ const total = 18 ;
         }, 6000);
       }
       if (jokeResponse.error === "true") {
-        insultText.textContent = jokeResponse.message;
+        insultText.textContent = `${jokeResponse.message}`;
       }
     } catch (error) {
       insultText.textContent = "NO Joke Found ...";
     }
   }
 });
-
-
-
-
