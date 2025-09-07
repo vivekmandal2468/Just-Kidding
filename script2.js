@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
     mainImg.classList.add("hidden");
   }
 let index = 0 ;
-const total = 19 ;
+const total = 18 ;
 
   //Img. and roastChange function
   async function roastChange() {
@@ -79,3 +79,4 @@ const total = 19 ;
     }
   }
 });
+
