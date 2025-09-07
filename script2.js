@@ -68,7 +68,7 @@ const total = 19 ;
         //4 sec ke baad next part joke ka
         setTimeout(() => {
           // insultText.textContent = `Setup - ${jokeResponse.setup}`;
-          insultText.innerHTML = `Setup - ${jokeResponse.setup}<br><br> - ${jokeResponse.delivery};
+          insultText.innerHTML = `Setup - ${jokeResponse.setup}<br><br> - ${jokeResponse.delivery}`;
         }, 6000);
       }
       if (jokeResponse.error === "true") {
@@ -79,5 +79,6 @@ const total = 19 ;
     }
   }
 });
+
 
 
